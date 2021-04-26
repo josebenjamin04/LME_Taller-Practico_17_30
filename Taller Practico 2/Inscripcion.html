@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28279bfb40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style-inscripcion.css">
+    <link rel="shortcut icon" href="media/logo.png">
+    <title>Martial arts | Inscripciones</title>
+</head>
+<body>
+    <nav>
+        <img src="media/logo.png" alt="logo">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">El Club</a></li>
+          <li><a href="">Inscripción en línea</a></li>
+          <li><a href="videos.html">Vídeos</a></li>
+          
+        </ul>
+      </nav>
+      <h1 id="title">- Inscribite -</h1>
+    <div class="container">
+        <div class="info">
+            <h1>Inscripciones en línea</h1>
+            <p>
+                <span>!Hola futuro karateca!</span> este espacio es para que puedas inscribirte a nuestros cursos 
+                de karate de manera <span>rápida, segura y eficiente </span> a través de nuestro formulario en línea brindando 
+                todos tus datos personales, de esa forma almanecenaremos tu información y nos ponderemos en contacto
+                contigo mediante tu correo electrónico.
+                <span>!Nos vemos pronto en el dojo! </span>
+            </p>
+            <img src="media/forms.svg" alt="forms">
+        </div>
+        <div class="form">
+            <h1>Datos Personales</h1>
+            <form>
+                <div class="form-div">
+                    <label>Nombres:</label>
+                    <input type="text" class="form-input">
+                </div>
+                <div  class="form-div">
+                    <label>Apellidos:</label>
+                    <input type="text"  class="form-input">
+                </div>
+                <div  class="form-div">
+                    <label>Fecha de nacimiento:</label>
+                    <i class="far fa-calendar-alt"></i>
+                    <input type="date"  id="this" class="form-input" >
+                </div>
+                <div  class="form-div">
+                    <label>Edad:</label>
+                    <input type="number"  id="this" class="form-input" min="10" max="30">
+                </div>
+                <div  class="form-div">
+                    <label>Genero:</label>
+                    <select class="form-input" id="this">
+                        <option>Seleccionar</option>
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                    </select>
+                </div>
+                <div  class="form-div">
+                    <label>Departamento:</label>
+                    <select class="form-input" id="this">
+                        <option>Seleccionar</option>
+                        <option>San Salavador</option>
+                        <option>Santa Ana</option>
+                        <option>San Miguel</option>
+                        <option>La libertad</option>
+                    </select>
+                </div>
+                <div  class="form-div">
+                    <label>Correo electrónico:</label>
+                    <input type="text"  class="form-input" >
+                </div>
+                <div  class="form-div" >
+                    <label>Dirección:</label>
+                    <textarea id="txta"  rows="5"></textarea>
+                </div>
+                 <input type="submit" value="Registrar" id="btn"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
