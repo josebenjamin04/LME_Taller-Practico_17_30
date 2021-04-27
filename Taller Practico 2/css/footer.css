@@ -14,6 +14,8 @@ footer{
     float: left;
     margin-left: 20%;
     position: relative;
+    margin-top: 1%;
+    cursor: pointer;
 }
 #tradicional{
     margin-left: 50%;
