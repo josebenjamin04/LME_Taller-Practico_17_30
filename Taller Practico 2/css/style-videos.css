@@ -4,13 +4,19 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+#title{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 25%;
+    font-size: 50px;
+    color: #5d5c5b;
+}
 /*Nav Bar*/
 nav{
     height: 80px;
     width: 100%;
     background-color: white;
-    font-family: 'Montserrat';
-  
+
   }
   nav img{
     width: 100px;
@@ -27,69 +33,55 @@ nav{
     margin: 0 8px;
     line-height: 80px;
     margin-top: 0px;
-    color: #5d5c5b;
   }
   nav ul li a:hover{
       color: #fa3535;
       transition: 0.5s;
   }
   nav ul li a{
-    color: #5d5c5b;
     font-size: 18px;
     text-transform: uppercase;
+    color: #5d5c5b;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
     text-decoration: none;
-  }
-  nav #icon{
-    color: #000;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  @media (max-width: 1320px){
-    nav ul{
-      margin-right: 5px;
-    }
-    nav ul li a{
-      font-size: 17px;
-      padding: 7px 5px;
-    }
-  }
-  @media (max-width: 1125px){
-    nav #icon{
-      display: block;
-    }
-    nav ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #f9f9f9;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    .division{
-      display: none;
-    }
-    nav ul li a:hover{
-      color: #e8880f;
-    }
-    nav ul.show{
-      left: 0;
-    }
-  }
+}
+
+.video1{
+  margin-bottom: 4vw;
+}
+.video1 video{
+  width: 640px;
+  height: 360px;
+  margin-left: 24%;
+  margin-top: 10%;
+  border-radius: 8px;
+  outline: none;
+}
+.video1 p{
+  margin-top: 3vw;
+  margin-left: 20vw;
+  margin-right: 22vw;
+  text-align: justify;
+}
+.video2{
+  margin-bottom: 4vw;
+}
+.video2 video{
+  width: 640px;
+  height: 360px;
+  margin-left: 24%;
+  margin-top: 3%;
+  border-radius: 8px;
+  outline: none;
+}
+.video2 p{
+  margin-top: 3vw;
+  margin-left: 20vw;
+  margin-right: 22vw;
+  text-align: justify;
+}
+span{
+  color: #fa3535;
+}
