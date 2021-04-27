@@ -1,0 +1,21 @@
+/*F O O T E R*/
+footer{
+    margin-top: 34%;
+    background-color: #595856;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+    position: relative;
+    padding: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#contacto{
+    font-size: 250%;
+    float: left;
+    margin-left: 20%;
+    position: relative;
+}
+#tradicional{
+    margin-left: 50%;
+    position: relative;
+} 
